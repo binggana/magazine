@@ -1,0 +1,140 @@
+/*********common css******/
+body{font-size: .75rem;background: #f2f2f2;}
+ul li{list-style: none;}
+.red{color: #eb5858;}
+button{outline: none;border: none;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+
+.page, .page-group,.wrap{background: #f2f2f2;}
+.bar{background-color: #656565;}
+.bar:after{background: none;}
+.bar-tab{z-index: 9999;background: #fff;text-align: center;height: auto;box-shadow: 0 2px 17px #909090;}
+.to-pay-btn{background: #ee9133;color:#fff !important;display: block;width: 90%;margin: 0.8rem auto;padding: .3rem 0;font-size: .85rem;border-radius: .25rem;}
+.bar .button-link,.title{color: #fff !important;}
+.content{padding-bottom: 4rem;}
+.book-show{height: 13rem;padding: 0.6rem 0;text-align: center;}
+.book-show img{height: 100%;width: auto;}
+.blocks{width: 100%;padding: .52rem 0.75rem;background: #fff;margin-bottom: .5rem;}
+h2{font-size: .85rem;font-weight:normal ;}
+.blocks p.price-tips{font-size: 0.8rem ;color: #eb5858;}
+.blocks p.price-tips:after{content:"";display: block;border-bottom: 1px solid #e6e6e6}
+.noMargin{margin: 0;}
+.price-tit{font-size: 1.3rem;padding:0 .3rem ;}
+.price-info{font-size: 1.3rem;}
+.price{padding: 0 .2rem;}
+.my-popup{top: 7.5rem;padding-bottom: 7.5rem;}
+.choose{margin-top: .32rem;padding-right: 1.5rem;background: url(../images/right.png) no-repeat right center;background-size: auto 80%;}
+.choose a{color: #3f3f3f;font-size: .75rem;width: 100%;display: block;}
+.choose a span{padding: 0 1.23rem;color: #999999;}
+
+.magazin-info{width: 100%;margin: .3rem 0;}
+.magazin-info th,.magazin-info td{border:1px solid #e4e4e4;font-size: .5rem;padding:.3rem 0;text-align: center;}
+.magazin-info th{background: #dbdbdb;}
+.magazin-info td{background: #fff;}
+
+.book-intro{padding: 0rem;}
+.buttons-tab .button.active {color: #ea7500;border-color: #ea7500;}
+.tabs{padding: 0 .75rem;}
+.tabs .tit{margin-top: .75rem;}
+.tabs p{margin: 0;}
+img.process{width: 100%;margin:.35rem 0;}
+p.books-info{font-size: .65rem;text-indent: 2em;text-align: justify;margin: .3rem 0;line-height: 1rem;}
+.express-info{padding-left: 1rem;}
+.express-info p.books-info{text-indent: 0;}
+/**********订阅信息*********/
+.content-block{margin: 0.65rem 0;}
+.pay-info{margin: 0;}
+.pay-info ul:after{height:0;border-bottom: 1px solid #eaeaea;}
+.pay-info ul:before{height: 0;}
+.list-block .item-content{padding: 0;}
+.item-media img{width: 4.2rem;border: 2px dashed #d8d8d8;margin-right: 1rem;}
+.item-title .price{padding-top: 1rem;}
+a.close-btn{display: block;position: absolute;right: .7rem;z-index: 999;width: .85rem;}
+a.close-btn img{width: 100%;}
+p.info-title{color:#000;margin-bottom: .3rem;}
+.gw_num{line-height: 1rem;overflow: hidden;color:#000;}
+.gw_num em,.gw_num .num{display: block;padding: 0 .75rem;height:1.8rem;line-height:1.8rem;float: left;text-align: center;font-size: .85rem;font-style: normal;border:1px solid #dbdbdb}
+.gw_num em.spec{color:#a2a1a1}
+.gw_num .num{width:3rem;/*padding:.35rem 0;*/border-left:none;border-right: none;}
+.gw_num em.jian{border-right: 1px solid #dbdbdb;}
+/*.gw_num em.add{border-left: 1px solid #dbdbdb;border-right: 1px solid #dbdbdb;}*/
+p.order{margin: 0;}
+.order em{display: block;color: #ea7500;font-style: normal;width: 4rem;text-align: center;padding: .3rem 0;}
+p.order:after{height:.53rem;content: "";display:block;border-bottom: 1px solid #eaeaea;}
+.current{border:1px solid #ea7500}
+.order-year{padding: 0;border-bottom: 1px solid #eaeaea;}
+.order-year div{width: 25%;float: left;margin-bottom:.5rem;}
+.order-year li{width: 95%;float: left;text-align: center;padding: .3rem 0;border:1px solid #000;color:#000}
+.order-year li.ago{border-color: #cccccc;color:#cccccc;}
+.order-year li.active{border-color: #ea7500;color:#ea7500;}
+.choose-over-btn{    background: #ee9133;
+    color: #fff;
+    display: block;
+    width: 90%;
+    margin: 0.8rem auto;
+    padding: .3rem 0;
+    font-size: .85rem;
+    border-radius: .25rem;text-align: center;}
+
+/*********关联手机***/
+ul.checkphone-area{padding:0 .3rem;font-size: .75rem;}
+ul.checkphone-area .item-media{padding: .3rem 0;font-size: .75rem;}
+ul.checkphone-area li.item-content{padding: .3rem 0;min-height: auto;border-bottom:1px solid #e7e7e7}
+ul.checkphone-area .item-inner{padding: 0;min-height: auto;}
+ul.checkphone-area .item-inner:after{height: 0;}
+ul.checkphone-area li input{height: auto !important;padding: .3rem !important;font-size: .75rem !important;}
+ul.checkphone-area .item-after{max-height: none;}
+.testcode-btn{border: none;background: none;color: #000;padding-top: 0;}
+.big-btn{
+    background: #ee9133;
+    color: #fff !important;
+    display: block;
+    width: 95%;
+    margin: 0.8rem auto;
+    padding: .43rem 0;
+    font-size: .85rem;
+    border-radius: .25rem;text-align: center;}
+.toast-tips{padding:0 1.2rem;background: rgba(33,33,33,.6);}
+
+
+/********添加收货地址**********/
+.page-address,.page-address .page{background: #fff;}
+.address-box{margin: 0 auto;padding:0.3rem 0.53rem;font-size: .75rem;}
+.address-box ul:before{height: 0;}
+.address-box .item-input,.address-box .item-input input{text-align: right;font-size: .75rem;}
+.address-box .spec{margin-right: -0.9rem;}
+#area-select{background: url(../images/right.png) no-repeat right center; background-size: 0.8rem auto; padding-right: 0.9rem;}
+.label-switch input[type=checkbox]:checked+.checkbox {background: #ea7500;}
+.list-block .item-title.label{width: 5.5rem;}
+.save-address{margin-top: 1.83rem;}
+
+/********选择收货地址*************/
+.addr_list .item-inner:after{height: 0;}
+.media-list{margin: 0;padding-top: .5rem;background: #fff;}
+ul.addr_list{padding:0 .5rem;font-size: .75rem;}
+ul.addr_list:before,.list-block ul.addr_list:after{height: 0;}
+ul.addr_list li{margin-bottom: .5rem;border-bottom: 1px solid #e7e7e7;}
+.revise_addr{width: 1.1rem;
+    height: 1.1rem;
+    position: relative;
+    background: url(../images/write.png) no-repeat center center;
+    background-size: 100% auto;}
+.list-block .list_phone{margin:0 2rem 0 0;}
+label.label-checkbox i.select_addr{width: 1rem;
+    height: 1rem;
+    position: relative;
+    background-size: 100% auto;border: none;}
+label.label-checkbox input.select_addrbtn:checked+.item-media i.icon-form-checkbox:after{background: url(../images/select.png) no-repeat center center;width: 1rem;
+    height: 1rem;margin: -.5rem 0 0 -.5rem;}
+label.label-checkbox input.select_addrbtn:checked+.item-media i.icon-form-checkbox{background:none;}
+.revise_btn {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -1rem;
+    text-align: right;
+}

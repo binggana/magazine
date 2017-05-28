@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>杂志详情</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="author" content="develop by 饼干" />
+		<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/??sm.min.css,sm-extend.min.css">
+		<link rel="stylesheet" type="text/css" href="css/magazine.css" />
+		<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+		<script>$.config = {router: false}</script>
+	</head>
+
+	<body>
+
+		<div class="page-group">
+			<div class="page" id="checks">
+				<header class="bar bar-nav">
+					<a class="button button-link button-nav pull-left back" href="#">
+						<span class="icon icon-left"></span> 返回
+					</a>
+					<h1 class="title">关联手机</h1>
+				</header>
+
+				<div class="content">
+					<div class="page-check">
+						<form action="" method="post">
+							<div class="list-block noMargin">
+								<ul class="checkphone-area">
+									<li class="item-content">
+										<div class="item-media"><label for="phone">手机号</label></div>
+										<div class="item-inner">
+											<div class="item-title"><input type="text" class="phone" id="phone" maxlength="11" placeholder="请输入手机号码"></div>
+											<div class="item-after"><input type="button" class="testcode-btn" value="发送验证码"></div>
+										</div>
+									</li>
+									<li class="item-content">
+										<div class="item-media"><label for="code">验证码</label></div>
+										<div class="item-inner">
+											<div class="item-title"><input type="text" class="code" id="code" placeholder="请输入验证码"></div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<a class="big-btn check-phone" href="add_address.html">关联手机</a>
+						</form>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/??sm.min.js,sm-extend.min.js' charset='utf-8'></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>$.init()</script>
+	</body>
+
+</html>
